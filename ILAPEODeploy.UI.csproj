@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <OutputType>WinExe</OutputType>
+
+    <TargetFramework>net8.0-windows</TargetFramework>
+
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <Nullable>enable</Nullable>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\ILAPEODeploy.Core\ILAPEODeploy.Core.csproj" />
+
+    <ProjectReference Include="..\ILAPEODeploy.Models\ILAPEODeploy.Models.csproj" />
+
+    <ProjectReference Include="..\ILAPEODeploy.Services\ILAPEODeploy.Services.csproj" />
+
+  </ItemGroup>
+
+</Project>
